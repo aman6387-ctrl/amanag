@@ -1,9 +1,9 @@
 ## Introduction
 
 
-<b>Discipline | <b>Physics
+<b>Discipline | <b> Electronic and Communication Engineering (ECE) 
 :--|:--|
-<b> Lab | <b> Physics Lab
+<b> Lab | <b> OPtical Communication Lab
 <b> Experiment|     <b> Performance Analysis of Optical Amplifiers (EDFA)
 
 ### About the Experiment 
