@@ -8,8 +8,6 @@
 
 ### About the Experiment 
 
-About the Experiment
-
 This experiment focuses on the Performance Analysis of Optical Amplifiers (EDFA). An Erbium-Doped Fiber Amplifier (EDFA) is an optical amplifier used to amplify optical signals in fiber-optic communication systems without converting the optical signal into an electrical signal.
 
 In this experiment, the performance of an EDFA is analyzed by studying important parameters such as input power, output power, gain, and signal amplification. The experiment helps in understanding how optical amplifiers improve the transmission of signals over long-distance optical fiber communication systems.
