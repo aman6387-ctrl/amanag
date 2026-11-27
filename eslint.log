@@ -1,0 +1,37 @@
+
+/home/runner/work/amanag/amanag/experiment/simulation/js/main.js
+    4:19  warning  'THREE' is not defined                   no-undef
+    5:24  warning  'THREE' is not defined                   no-undef
+    7:20  warning  'THREE' is not defined                   no-undef
+   12:22  warning  'THREE' is not defined                   no-undef
+   17:22  warning  'THREE' is not defined                   no-undef
+   21:15  warning  'THREE' is not defined                   no-undef
+   23:19  warning  'THREE' is not defined                   no-undef
+   27:19  warning  'THREE' is not defined                   no-undef
+   28:7   warning  'THREE' is not defined                   no-undef
+   29:7   warning  'THREE' is not defined                   no-undef
+   35:18  warning  'THREE' is not defined                   no-undef
+   40:17  warning  'THREE' is not defined                   no-undef
+   41:9   warning  'THREE' is not defined                   no-undef
+   42:9   warning  'THREE' is not defined                   no-undef
+   53:19  warning  'THREE' is not defined                   no-undef
+   54:7   warning  'THREE' is not defined                   no-undef
+   55:7   warning  'THREE' is not defined                   no-undef
+   66:29  warning  'THREE' is not defined                   no-undef
+   68:18  warning  'THREE' is not defined                   no-undef
+   69:7   warning  'THREE' is not defined                   no-undef
+   70:7   warning  'THREE' is not defined                   no-undef
+   80:18  warning  'THREE' is not defined                   no-undef
+   81:7   warning  'THREE' is not defined                   no-undef
+   82:7   warning  'THREE' is not defined                   no-undef
+   93:29  warning  'THREE' is not defined                   no-undef
+  105:18  warning  'THREE' is not defined                   no-undef
+  106:17  warning  'THREE' is not defined                   no-undef
+  107:9   warning  'THREE' is not defined                   no-undef
+  136:10  warning  'changePump' is defined but never used   no-unused-vars
+  141:10  warning  'changeInput' is defined but never used  no-unused-vars
+  146:10  warning  'resetLab' is defined but never used     no-unused-vars
+  152:10  warning  'enterVR' is defined but never used      no-unused-vars
+
+✖ 32 problems (0 errors, 32 warnings)
+
