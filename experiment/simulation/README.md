@@ -17,4 +17,4 @@ WebXR requires a compatible browser, headset and HTTPS.
 
 ## Educational model note
 Gain and noise figure are simplified illustrative indicators, not calibrated experimental measurements or commercial EDFA specifications.
-
+Testing deployment trigger.
