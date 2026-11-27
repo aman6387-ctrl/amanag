@@ -1,13 +1,33 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EDFA Performance Analysis - Virtual Lab</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
 </head>
 <body>
-		<!-- Your code goes here-->
+  <div id="guide">
+    <b>OPTICAL COMMUNICATIONS VIRTUAL LAB</b><br>
+    Move: W A S D / Arrow keys<br>
+    Look: click + drag<br>
+    VR: compatible WebXR headset required
+  </div>
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
+  <div id="panel">
+    <b>EDFA PERFORMANCE MONITOR</b><hr>
+    <div id="readout"></div>
+    <button class="ctrl" onclick="changePump(-10)">Pump −10</button>
+    <button class="ctrl" onclick="changePump(10)">Pump +10</button><br>
+    <button class="ctrl" onclick="changeInput(-5)">Input −5 dB</button>
+    <button class="ctrl" onclick="changeInput(5)">Input +5 dB</button><br>
+    <button class="ctrl" onclick="resetLab()">Reset</button>
+  </div>
+
+  <button id="vr" onclick="enterVR()">ENTER VR</button>
+  <script src="./js/main.js"></script>
 </body>
 </html>
