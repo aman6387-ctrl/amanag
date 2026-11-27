@@ -1,1 +1,66 @@
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  overflow: hidden;
+  background: #071321;
+  color: #eaf2ff;
+  font-family: system-ui, sans-serif;
+}
+
+#guide, #panel {
+  position: absolute;
+  z-index: 5;
+  background: #10243bdd;
+  border: 1px solid #38bdf8;
+  border-radius: 10px;
+  padding: 12px;
+  font-size: 13px;
+}
+
+#guide {
+  top: 14px;
+  left: 14px;
+  max-width: 340px;
+}
+
+#panel {
+  top: 14px;
+  right: 14px;
+  width: 245px;
+}
+
+#vr {
+  position: absolute;
+  bottom: 18px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 5;
+  padding: 12px 26px;
+  background: #10243b;
+  color: #7dd3fc;
+  border: 1px solid #38bdf8;
+  border-radius: 8px;
+}
+
+button.ctrl {
+  margin: 4px;
+  padding: 7px 9px;
+  background: #164e63;
+  color: white;
+  border: 1px solid #67e8f9;
+  border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+  #guide { max-width: 55%; font-size: 11px; }
+  #panel {
+    top: auto;
+    bottom: 65px;
+    right: 8px;
+    width: 48%;
+    font-size: 11px;
+  }
+}
 /* You CSS goes in here */
