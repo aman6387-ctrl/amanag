@@ -32,9 +32,9 @@ jobs:
         git add build/* -f
         git mv build/* ./ -f
         git commit -m "https://virtual-labs.github.io/${{ github.event.repository.name }} click on the link to test your code."
-    - uses: ad-m/github-push-action@master
-      with:
-       github_token: ${{ secrets.GITHUB_TOKEN }}
+           - uses: ad-m/github-push-action@master
+         with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
         force: true
         branch: gh-pages
  # Reference : https://github.com/marketplace/actions/github-push
